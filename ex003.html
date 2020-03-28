@@ -6,12 +6,12 @@
     <meta nome="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>
-        meu preimeiro programa!
+        meu primeiro programa!
     </title>
     <style>
         body{
             background-color: rgb(26, 5, 5);
-            color: cornsilk;
+            color: cornsilk; /*comentario em css*/
             font: normal 20pt arial;
         }
         h1{
@@ -21,15 +21,21 @@
     </style>
 </head>
 <body>
-<h1>Hello World!!!</h1>
+<h1>como e que ta</h1> <!--isso e um comentario em html-->
 <p>pizzaHello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!
     Hello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!Hello World!!!
-</p>
+    </p>
+
+   <h2> entao sera que to errando</h2>
        <script>
-           window.alert('xuxu')//deixa um alerta na tela inicial
-           window.confirm('esta gostando do xuxu?')//aparecer um opçao de botao ok ou cancelar
-           window.prompt('qual o nome do xuxu?')
+        var n1 = Number(window.prompt('digite um numero: '))// string
+        var n2 = Number(window.prompt('digite outro numero: '))//string
+        var s = n1 + n2
+        window.alert('A soma entre '+n1+' e '+n2+' e igual a '+s+' ')//concatenaçao
+        // (number + number) para adiçao
+        // ( string + string) para concatenaçao
        </script>
+
        
 </body>
 </html>

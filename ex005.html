@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meus primeiros passos com dom</title>
+    <style>
+        body{
+            background-color: rgb(39, 39, 139);
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>iniciando estudos com dom</h1>
+    <p>aqui vai o resultado</p>
+    <p>aprendendo a usar o <strong> dom</strong> em javaScript </p>
+    <div id="msg"> clique em min</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]//selecionar o 0 ou 1 ou 4 ....  paragrafo p
+        var d =window.document.getElementsByTagid('msg')
+       d.style.background = 'red'
+      // d.innertext = ' estou aguardando.....'
+
+       /* window.document.write('esta escrito asim: ' + p1.innerText)
+        corpo.style.background = 'black' // mudar cor do fundo
+        p1.style.color = 'red' // escolher a cor na frase */
+        
+      
+      
+      
+       //window.document.write('ola mundo')   // melhor forma de adicionar alguma coisa na tela
+
+    </script>
+</body>
+</html>

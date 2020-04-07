@@ -21,9 +21,18 @@
     <script>
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]//selecionar o 0 ou 1 ou 4 ....  paragrafo p
-        var d =window.document.getElementsByTagid('msg')
-       d.style.background = 'red'
-      // d.innertext = ' estou aguardando.....'
+        var d =window.document.getElementById('msg');
+        var idade = prompt("Qual sua idade?");
+        console.log('Eu sou o console!!!');
+        if(idade>=18){
+            alert('Pode encher a cara!!!');
+            console.log('Pode encher a cara!!!');
+        } else {
+            alert('Vaza menor!!!');
+            console.log('Vaza menor!!!');
+        }
+       d.style.background = 'green'
+       d.innertext = ' estou aguardando.....'
 
        /* window.document.write('esta escrito asim: ' + p1.innerText)
         corpo.style.background = 'black' // mudar cor do fundo

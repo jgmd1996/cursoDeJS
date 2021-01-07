@@ -1,0 +1,3 @@
+# Comandos iniciar XAMPP
+cd /opt/lampp
+sudo ./xampp start

@@ -57,4 +57,3 @@ function mostrarResultado(name ,salario,desconto){
     console.log("Desconto ",desconto);
     console.log("Salario liquido ",salario-desconto);
 }
-salario.toLocaleSthing('pt-br',{style: 'currency', currency: 'BRL'})

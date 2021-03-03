@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jgmd1996/cursodealgumacoisa/issues"
   },
-  "homepage": "https://github.com/jgmd1996/cursodealgumacoisa#readme"
+  "homepage": "https://github.com/jgmd1996/cursodealgumacoisa#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }

@@ -24,7 +24,25 @@ console.log('sobrenome do cliente',sobreNome);
 console.log('idade do cliente',idade);
 
 
-if(mes ==1 && mes == 3 && mes ==5 && mes ==7 && mes == 8 && mes== 10 && mes == 12 && dia <= 31){
+if(mes >12 || mes <1){
+    console.log('Data de vencimento 0/0/0');;
+
+}else{
+    
+    if((mes ==1 || mes == 3 || mes ==5 || mes ==7 || mes == 8 || mes== 10 || mes == 12) && (dia > 31 || dia <1)){
+        console.log('Data de vencimento 0/0/0');
+    }else if((mes ==4 || mes ==6 || mes == 9 || mes == 11) && (dia >30 || dia< 1)){
+        console.log('Data de vencimento 0/0/0');
+    }else if((mes == 2)&&( dia >28 || dia < 1)){
+        console.log('Data de vencimento 0/0/0');
+    }else{
+        console.log('Data de vencimento '+dia+'/'+mes+'/'+ano);
+    }
+}
+console.log('numero de acidentes em 3 anos :',numeroDeAceidentes);
+
+
+/*if(mes ==1 && mes == 3 && mes ==5 && mes ==7 && mes == 8 && mes== 10 && mes == 12 && dia <= 31){
     console.log('Data de vencimento '+dia+'/'+mes+'/'+ano);
 
 }else if(mes > 12){
@@ -50,4 +68,4 @@ if(mes == 2 && dia <=28){
 }else if(dia >28){
     console.log('Data de vencimento 0/0/0');
 }
-
+*/

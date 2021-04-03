@@ -24,7 +24,7 @@ do{
 
                 valorJuros= Number(readlineSync.question( 'qual o valor da prestaçao : ',ano));
   
-                 console.log(valorAnual)
+                 console.log(valorJuros)
                  if(valorJuros){
                    valorJuros+=1%
                    console.log('Valor a ser pago no '+ano+' mes')
@@ -39,5 +39,10 @@ do{
      
 
 }while(sair != 0);
+
+
+
+
+// tem que ser corrigido
 
                

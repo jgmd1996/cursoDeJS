@@ -42,30 +42,15 @@ if(mes >12 || mes <1){
 console.log('numero de acidentes em 3 anos :',numeroDeAceidentes);
 
 
-/*if(mes ==1 && mes == 3 && mes ==5 && mes ==7 && mes == 8 && mes== 10 && mes == 12 && dia <= 31){
-    console.log('Data de vencimento '+dia+'/'+mes+'/'+ano);
+/*
+Uma seguradora comercializa apólices de seguro para automóveis. Crie um
+algoritmo para essa seguradora para ler os dados de uma apólice de seguro,
+incluindo o número da apólice, sobrenome do cliente, nome do cliente, idade, data
+de vencimento do prêmio (mês, dia e ano) e número de acidentes de motorista nos
+últimos três anos. Se um número da apólice inserido não estiver entre 1000 e 9999,
+defina-a como sendo 0. Se o mês do vencimento não estiver entre 1 e 12 inclusive,
+ou o dia não estiver correto para o mês (por exemplo, não entre 1 e 31 para Janeiro
+ou 1 e 29 para fevereiro), defina o mês, dia e ano como 0. Após essas críticas,
+exiba os dados da apólice.
 
-}else if(mes > 12){
-    console.log('Data de vencimento 0/0/0');
-}else if(dia >31){
-    console.log('Data de vencimento 0/0/0');
-}
-
-
-if(mes ==4 && mes ==6 && mes == 9 && mes == 11 && dia <=30){
-    console.log('Data de vencimento '+dia+'/'+mes+'/'+ano);
-}else if(mes > 12){
-    console.log('Data de vencimento 0/0/0');
-}else if(dia >30){
-    console.log('Data de vencimento 0/0/0');
-}
-
-
-if(mes == 2 && dia <=28){
-    console.log('Data de vencimento '+dia+'/'+mes+'/'+ano);
-}else if(mes > 12){
-    console.log('Data de vencimento 0/0/0');
-}else if(dia >28){
-    console.log('Data de vencimento 0/0/0');
-}
 */

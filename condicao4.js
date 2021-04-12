@@ -12,3 +12,9 @@ if(cauculo==numero3){
     console.log('Calculo deu errado',cauculo);
     console.log('Era para ser ',numero3);
 }
+
+/*
+Escreva um algoritmo que leia três números fornecidos pelo usuário e mostre se
+a soma de dois deles resulta no terceiro.
+
+*/

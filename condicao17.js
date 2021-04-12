@@ -26,3 +26,10 @@ if(numerosRomanos ==1){
 }else{
     console.log('erro')
 }
+
+/*
+Crie um algoritmo que leia um número entre 1 e 10 e exiba o correspondente em
+números romanos. Se o número estiver fora do intervalo de 1 a 10, uma mensagem
+de erro deverá ser exibida.
+
+*/

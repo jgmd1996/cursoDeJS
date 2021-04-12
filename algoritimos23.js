@@ -14,3 +14,10 @@ let frangoPorcentagem = frango/100*10;
 console.log('o partido arroz teve '+arrozPorcentagem+'% da intençao de votos');
 console.log('o partido feijao teve '+feijaoPorcentagem+'% da intençao de votos');
 console.log('o partido frango teve '+frangoPorcentagem+'% da intençao de votos');
+
+/*
+Percentual de votos – Escreva um algoritmo que aceite os nomes de três
+partidos políticos e o número de votos que cada um recebeu na última eleição
+para prefeito. Exibir a porcentagem de votos que cada partido recebeu.
+
+*/

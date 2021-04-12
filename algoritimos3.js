@@ -16,3 +16,14 @@ console.log('cidade da pessoa',cidade);
 console.log('cep da pessoa',cep);
 console.log('telefone da pessoa',telefone);
 console.log('atuaçao proficional da pessoa',proficional);
+
+
+
+/*
+Informações Pessoais – Crie um algoritmo que peça ao usuário para informar os
+dados abaixo e, depois disso, os imprima na tela:
+• Nome;
+• Endereço, com cidade, estado e CEP;
+• Número de telefone;
+• Área de atuação profissional.
+*/

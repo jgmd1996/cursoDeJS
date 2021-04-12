@@ -46,3 +46,16 @@ if(jogos<=10){
     console.log('Valor total a pagar R$;',valorDaCompra-calculo);
 
 }
+
+/*
+Uma loja de jogos vende cada jogo por R$ 150.00, mas concede descontos
+conforme a quantidade comprada, conforme a tabela a seguir:
+Quantidade de jogos comprados Desconto
+10–19 20%
+20–49 30%
+50 a 99 40%
+100 ou mais 50%
+Crie um algoritmo que leia o número de jogos comprados, o valor original da
+compra, o valor do desconto (se houver) e o valor total da compra após o desconto.
+
+*/

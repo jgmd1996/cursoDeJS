@@ -53,3 +53,24 @@ if(cafe == 1){
 }
 */
 console.log(valor)
+
+
+/*
+Máquina de café – Uma máquina de vender café funciona da seguinte forma: o
+usuário seleciona um tipo de café, insere algumas notas ou moedas na máquina e,
+se a quantia paga for suficiente para pagar o face desejado, a máquina enche um
+copo descartável com o tipo de café selecionado e dá o troco em moedas. Faça um
+programa para imitar esse comportamento: o usuário informa qual é o tipo de café
+desejado e o valor pago, e o seu programa deve dizer qual deve ser o valor do
+
+Ministério da Educação
+troco e quantas moedas são necessárias para pagar esse troco. Considere a
+existência de moedas com os seguintes valores: R$ 1.00, R$ 0.50, R$ 0.25, R$
+0.10, R$ 0.05 e R$ 0.01. A tabela de preços é dada abaixo:
+Tipo de Café Preço
+Café normal R$ 1,05
+Café expresso R$ 1,52
+Capuccino R$ 2,17
+Mocaccino R$ 2,36
+
+*/

@@ -1,7 +1,5 @@
 
-
 // primeira parte do exercicio exercicio a
-
 var  readlineSync  = require ( 'readline-sync' ) ;
 
 let anos = Number(readlineSync.question( 'Por quanto anos o participante imagina que ainda deve trabalhar antes de se aposentar?  :'));
@@ -38,7 +36,7 @@ if(saque < calcular){
     
         if(calcular > 0){
             
-            console.log('saque realixado no mes '+saquePos+' resulto',calcular)
+            console.log('saque realizado no mes '+saquePos+' resulto',calcular)
          }
   
         }
